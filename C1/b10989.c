@@ -1,36 +1,25 @@
 // 오름차순으로 정렬하기
 #include <stdio.h>
-/*#include <stdlib.h>
-
-int compare(const void* arr1, const void* arr2)
-{
-	// 길이 구분
-	if (((int*)arr1) > ((int*)arr2))
-		return 1;
-	else if (((int*)arr1) < ((int*)arr2))
-		return -1;
-	// 대소문자 구분
-	else return 0;
-}
 
 int main() {
-	int N;
-	int i;
+    int N;
+    int count[10001] = { 0 }; 
 
-	scanf("%d", &N);
-	int* arr = (int*)malloc(sizeof(int) * N);
+    scanf("%d", &N);
 
-	for (i = 0; i < N; i++) {
-		scanf("%d", &arr[i]);
-	}
-	qsort(arr, N, sizeof(int), compare);
-	for (i = 0; i < N; i++) {
-		scanf("%d\n", &arr[i]);
-	}
+    for (int i = 0; i < N; i++) {
+        int num;
+        scanf("%d", &num);
+        count[num]++;
+    }
 
-	return 0;
-}*/
+    for (int i = 1; i <= 10000; i++) {
+        while (count[i] > 0) {
+            printf("%d\n", i);
+            count[i]--;
+        }
+    }
 
-int main() {
-	printf("d");
+    return 0;
 }
+

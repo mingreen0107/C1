@@ -18,5 +18,26 @@
     <ClCompile Include="b10989.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="b2108.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cass.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="b2609.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="b1436.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="b1929.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="b2231.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="b10828.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
